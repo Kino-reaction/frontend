@@ -1,6 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 import type { Story } from '@storybook/react';
 
+import GlobalFonts from '../src/ui/typography/global-fonts';
+
 import { theme } from '../src/ui';
 
 export const parameters = {
