@@ -1,10 +1,10 @@
-import { TextLink } from './text-link';
+import { TextLink } from "./text-link";
 
 export default {
-  title: 'Typography/TextLink',
+  title: "Typography/TextLink",
   component: TextLink,
   args: {
-    children: 'Шрифт TextLink',
+    children: "Шрифт TextLink",
   },
 };
 

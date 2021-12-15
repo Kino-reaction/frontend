@@ -1,10 +1,10 @@
-import { Caption } from './caption';
+import { Caption } from "./caption";
 
 export default {
-  title: 'Typography/Caption',
+  title: "Typography/Caption",
   component: Caption,
   args: {
-    children: 'Шрифт Caption',
+    children: "Шрифт Caption",
   },
 };
 

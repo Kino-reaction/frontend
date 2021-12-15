@@ -1,10 +1,10 @@
-import { Headline } from './headline';
+import { Headline } from "./headline";
 
 export default {
-  title: 'Typography/Headline',
+  title: "Typography/Headline",
   component: Headline,
   args: {
-    children: 'Шрифт Headline',
+    children: "Шрифт Headline",
   },
 };
 

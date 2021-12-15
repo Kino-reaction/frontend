@@ -1,10 +1,10 @@
-import { ExampleDot } from './example-dot';
+import { ExampleDot } from "./example-dot";
 
 export default {
-  title: 'atoms/ExampleDot',
+  title: "atoms/ExampleDot",
   component: ExampleDot,
   args: {
-    status: 'open',
+    status: "open",
   },
 };
 

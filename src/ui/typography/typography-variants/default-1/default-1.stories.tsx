@@ -1,10 +1,10 @@
-import { Default1 } from './default-1';
+import { Default1 } from "./default-1";
 
 export default {
-  title: 'Typography/Default1',
+  title: "Typography/Default1",
   component: Default1,
   args: {
-    children: 'Шрифт Default1',
+    children: "Шрифт Default1",
   },
 };
 
