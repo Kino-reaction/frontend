@@ -2,7 +2,7 @@ export const theme = {
   colors: {
     main: {
       primary: { normal: '#0A0A0A', hover: '#292929' },
-      secondary: { normal: '#EC4926', hover: '' },
+      secondary: { normal: '#EC4926', hover: '#BE3718', active: '#F06D50' },
     },
     detailed: {
       primary: { normal: '#FAFAFA', hover: '' },

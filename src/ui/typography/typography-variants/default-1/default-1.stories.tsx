@@ -4,7 +4,6 @@ export default {
   title: 'Typography/Default1',
   component: Default1,
   args: {
-    color: '#999999',
     children: 'Шрифт Default1',
   },
 };
