@@ -4,7 +4,7 @@ export default {
   title: "icons/Home",
   component: Home,
   args: {
-    status: "inActive",
+    color: "##FAFAFA",
   },
 };
 

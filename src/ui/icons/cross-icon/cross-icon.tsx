@@ -1,14 +1,4 @@
-const colors: Record<string, string> = {
-  active: "#FAFAFA",
-  inActive: "#000000",
-  color: "#EC4926",
-};
-
-type Props = {
-  status: " active" | "inActive" | "color";
-};
-
-export const CrossIcon = ({ status }: Props) => {
+export const CrossIcon = ({ color }: { color?: string}) => {
   return (
     <svg
       width="24"
@@ -19,14 +9,14 @@ export const CrossIcon = ({ status }: Props) => {
     >
       <path
         d="M18 6L6 18"
-        stroke={colors[status]}
+        stroke={color ?? "#000000"}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M6 6L18 18"
-        stroke={colors[status]}
+        stroke={color ?? "#000000"}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
