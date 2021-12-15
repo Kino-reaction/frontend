@@ -1,8 +1,4 @@
-type Props = {
-  color?: string;
-};
-
-export const ChevronsRight = ({ color }: Props) => {
+export const ChevronsRight = ({ color }: { color?: string}) => {
   return (
     <svg
       width="24"
