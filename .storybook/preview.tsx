@@ -1,3 +1,8 @@
+import { ThemeProvider } from 'styled-components';
+import type { Story } from '@storybook/react';
+
+import { theme } from '../src/ui';
+
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
@@ -7,3 +12,13 @@ export const parameters = {
     },
   },
 };
+
+export const withThemeProvider = (Story: Story) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Story />
+    </ThemeProvider>
+  );
+};
+
+export const decorators = [withThemeProvider];
