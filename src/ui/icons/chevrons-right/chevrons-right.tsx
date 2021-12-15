@@ -9,14 +9,14 @@ export const ChevronsRight = ({ color }: { color?: string}) => {
     >
       <path
         d="M13 17L18 12L13 7"
-        stroke={color ?? "#FF0000"}
+        stroke={color ?? "#FAFAFA"}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M6 17L11 12L6 7"
-        stroke={color ?? "#FF0000"}
+        stroke={color ?? "#FAFAFA"}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
