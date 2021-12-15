@@ -1,1 +1,1 @@
-export { ExampleDot } from './example-dot';
+export { ExampleDot } from "./example-dot";

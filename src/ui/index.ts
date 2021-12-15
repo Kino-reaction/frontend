@@ -1,7 +1,7 @@
-export * from './atoms';
+export * from "./atoms";
 
-export * from './icons';
+export * from "./icons";
 
-export * from './typography';
+export * from "./typography";
 
-export { theme } from './theme';
+export { theme } from "./theme";
