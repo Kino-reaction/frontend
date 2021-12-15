@@ -1,1 +1,1 @@
-export { LikeFilled } from './like';
+export { LikeFilled } from './like-filled';
