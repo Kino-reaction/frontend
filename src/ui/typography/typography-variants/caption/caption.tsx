@@ -1,15 +1,17 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import GolosRegularWoff from '../../fonts/GolosTextWeb/Golos-Text_Regular.woff';
-import GolosRegularWoff2 from '../../fonts/GolosTextWeb/Golos-Text_Regular.woff2';
+import GolosRegularWoff from "../../fonts/GolosTextWeb/Golos-Text_Regular.woff";
+import GolosRegularWoff2 from "../../fonts/GolosTextWeb/Golos-Text_Regular.woff2";
 
 const Font = styled.p<{ color?: string }>`
   @font-face {
-    font-family: 'Golos';
-    src: url(${GolosRegularWoff}) format('woff'), url(${GolosRegularWoff2}) format('woff2');
+    font-family: "Golos";
+    src: url(${GolosRegularWoff}) format("woff"),
+      url(${GolosRegularWoff2}) format("woff2");
   }
   font-family: Golos;
-  color: ${({ color, theme }) => color ?? theme.colors.detailed.secondary.normal};
+  color: ${({ color, theme }) =>
+    color ?? theme.colors.detailed.secondary.normal};
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -24,5 +26,5 @@ type Props = {
 };
 
 export const Caption = ({ color, children }: Props) => {
-  return <Font color={color && color}>{children ? children : ''}</Font>;
+  return <Font color={color && color}>{children ? children : ""}</Font>;
 };

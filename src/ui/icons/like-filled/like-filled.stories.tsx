@@ -1,10 +1,10 @@
-import { LikeFilled } from './like-filled';
+import { LikeFilled } from "./like-filled";
 
 export default {
-  title: 'icons/LikeFilled',
+  title: "icons/LikeFilled",
   component: LikeFilled,
   args: {
-    color: '#ff0000',
+    color: "#ff0000",
   },
 };
 

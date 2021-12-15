@@ -1,10 +1,10 @@
-import { ThemeProvider } from 'styled-components';
-import type { Story } from '@storybook/react';
+import { ThemeProvider } from "styled-components";
+import type { Story } from "@storybook/react";
 
-import { theme } from '../src/ui';
+import { theme } from "../src/ui";
 
 export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
+  actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
       color: /(background|color)$/i,

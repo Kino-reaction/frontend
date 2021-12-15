@@ -1,10 +1,10 @@
-import { Text } from './text';
+import { Text } from "./text";
 
 export default {
-  title: 'Typography/Text',
+  title: "Typography/Text",
   component: Text,
   args: {
-    children: 'Шрифт Text',
+    children: "Шрифт Text",
   },
 };
 
