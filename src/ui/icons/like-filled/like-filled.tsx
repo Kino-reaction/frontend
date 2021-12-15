@@ -8,3 +8,4 @@ export const LikeFilled = ({ color }: { color?: string }) => {
     </svg>
   );
 };
+
