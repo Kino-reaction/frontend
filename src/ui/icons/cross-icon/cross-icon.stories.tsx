@@ -4,7 +4,7 @@ export default {
   title: "icons/CrossIcon",
   component: CrossIcon,
   args: {
-    color: "##FAFAFA",
+    color: "#FAFAFA",
   },
 };
 
