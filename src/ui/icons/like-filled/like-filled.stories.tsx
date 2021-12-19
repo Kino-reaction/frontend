@@ -4,7 +4,7 @@ export default {
   title: "icons/LikeFilled",
   component: LikeFilled,
   args: {
-    color: "#ff0000",
+    color: "#FAFAFA",
   },
 };
 
