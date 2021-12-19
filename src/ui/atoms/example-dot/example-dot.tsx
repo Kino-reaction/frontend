@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 const Dot = styled.div`
   display: flex;
-  width: 40px;
-  height: 40px;
-  background-color: ${({ color }) => color ?? "blue"};
-  border-radius: 50%;
+  width: 100%;
+  height: 400px;
+  background-color: ${({ color, theme }) => color ?? theme.colors.main.primary.normal };
 `;
 
 const colors: Record<string, string> = {
@@ -20,5 +19,7 @@ type Props = {
 };
 
 export const ExampleDot = ({ status }: Props) => {
-  return <Dot color={colors[status]}></Dot>;
+  return (
+    <Dot color={colors[status]}></Dot>
+  )    
 };
