@@ -7,4 +7,6 @@ export { Paperclip } from "./paperclip";
 export { Check } from "./check";
 export { Copy } from "./copy";
 export { Logout } from "./logout";
-export { EyeDefault } from './eye-default';
+export { EyeDefault } from "./eye-default";
+export { LogInDefault } from "./log-in-default";
+export { ALertDefault } from "./alert-default";
