@@ -4,7 +4,7 @@ export default {
   title: "icons/ChevronsRight",
   component: ChevronsRight,
   args: {
-    color: "##FAFAFA",
+    color: "#FAFAFA",
   },
 };
 
